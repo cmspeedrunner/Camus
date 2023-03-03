@@ -1,0 +1,38 @@
+variableset openbracket x comma three zero zero closebracket
+classof openbracket x closebracket
+display openbracket x plus x closebracket
+
+commenthere Above we are setting x to 300 as an int displaying its class with the classof command and adding it
+commenthere Below we will be doing the same except converting our variable to a string first
+
+convert to str openbracket x closebracket
+classof openbracket x closebracket
+display openbracket x plus x closebracket
+
+commenthere Ok so that worked but now lets try doing it with int and bool and float
+
+variableset openbracket x comma True closebracket
+classof openbracket x closebracket
+display openbracket x plus x closebracket
+
+commenthere This will output 2 because True plus True is equal to 2 for some reason
+commenthere Now we will convert it to a string
+
+convert to str openbracket x closebracket
+classof openbracket x closebracket
+display openbracket x plus x closebracket
+
+commenthere We will do this again except reversed
+
+variableset openbracket x comma string True string closebracket
+classof openbracket x closebracket
+display openbracket x plus x closebracket
+
+commenthere This will output TrueTrue
+commenthere Now we will convert it to a bool
+
+convert to bool openbracket x closebracket
+display openbracket x plus x closebracket
+
+
+
