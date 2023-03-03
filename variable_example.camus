@@ -1,0 +1,20 @@
+variableset openbracket x comma three zero zero closebracket
+display openbracket x plus x closebracket
+
+commenthere The code above sets x to 300 and displays x+x
+commenthere The code below will show string variables.
+
+variableset openbracket y comma string Hello wspace World emark string closebracket
+display openbracket y closebracket
+display openbracket string Now comma wspace i wspace will wspace display wspace y wspace + wspace y string closebracket
+display openbracket string Which wspace should wspace be wspace Hello wspace World!Hello wspace World! string closebracket
+display openbracket y plus y closebracket
+display openbracket string I wspace was wspace right emark string closebracket
+
+commenthere Wow thats alot of code
+commenthere run it to really understand it
+commenthere Now i will show you some evaluation
+
+display openbracket x equal equal y closebracket
+
+commenthere this will display False as x is not equal to y 
