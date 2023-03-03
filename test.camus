@@ -1,0 +1,6 @@
+display openbracket string Hello comma wspace World emark string closebracket
+display openbracket five plus 2 times one zero closebracket
+
+commenthere COMMENTS
+commenthere This is a comment btw
+commenthere You dont need a COMMENTS header
