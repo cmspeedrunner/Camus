@@ -1,0 +1,3 @@
+display openbracket three zero zero plus three zero zero equal equal six zero zero closebracket
+
+commenthere That should output True as 300 add 300 is equal to six hundred
